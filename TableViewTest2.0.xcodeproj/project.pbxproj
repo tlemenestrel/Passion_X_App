@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DC39D585C20D284F7BF673B /* Pods_TableViewTest2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF32C83213775E5757B90F7 /* Pods_TableViewTest2_0.framework */; };
+		4205FDA0201BD54D008E3298 /* Clara, Lou’ et Isabel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4205FD9F201BD54D008E3298 /* Clara, Lou’ et Isabel.jpg */; };
+		4205FDA2201BEF96008E3298 /* Berko.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4205FDA1201BEF95008E3298 /* Berko.JPG */; };
+		420E2DAC20191A4B00F37337 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E2DAB20191A4B00F37337 /* ViewController3.swift */; };
+		420E2DAE201A900600F37337 /* Isabel Porras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420E2DAD201A900600F37337 /* Isabel Porras.jpg */; };
+		420E2DB0201A900E00F37337 /* Lou'.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420E2DAF201A900E00F37337 /* Lou'.jpg */; };
+		420E2DB2201A901600F37337 /* Guillemette Guitard - Nicole Fife.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420E2DB1201A901500F37337 /* Guillemette Guitard - Nicole Fife.jpg */; };
+		420E2DB4201A901B00F37337 /* Sarah Drubay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420E2DB3201A901B00F37337 /* Sarah Drubay.jpg */; };
+		420E2DB6201A902500F37337 /* What'd you say?.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420E2DB5201A902500F37337 /* What'd you say?.jpg */; };
+		422644522009101A0058664E /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422644512009101A0058664E /* SplashScreen.swift */; };
+		42264459200A71BA0058664E /* celuiquivaalaloupeilestpasnet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42264458200A71B90058664E /* celuiquivaalaloupeilestpasnet.jpg */; };
+		42402ADE201DCB710080DCD2 /* Gaggle of giggling girls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402ADD201DCB700080DCD2 /* Gaggle of giggling girls.jpg */; };
+		42402AE0201DCF040080DCD2 /* Victoire Genries - Laetitia Cordery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402ADF201DCF030080DCD2 /* Victoire Genries - Laetitia Cordery.jpg */; };
+		42402AE4201DE0E30080DCD2 /* Aim High.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AE3201DE0E30080DCD2 /* Aim High.jpg */; };
+		42402AE6201E3EB60080DCD2 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42402AE5201E3EB60080DCD2 /* TableViewController2.swift */; };
+		42402AE8201E3F670080DCD2 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42402AE7201E3F670080DCD2 /* ViewController4.swift */; };
+		42402AEE201F91A10080DCD2 /* Les Jewsbrother.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AED201F91A10080DCD2 /* Les Jewsbrother.jpg */; };
+		42402AF2201FBA6B0080DCD2 /* Marion Malard - Pénélope Laforge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AF1201FBA6B0080DCD2 /* Marion Malard - Pénélope Laforge.jpg */; };
+		42402AF4201FBA7A0080DCD2 /* SeeMG Studio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AF3201FBA7A0080DCD2 /* SeeMG Studio.jpg */; };
+		42402AF6202101370080DCD2 /* Definitely plastic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AF5202101370080DCD2 /* Definitely plastic.jpg */; };
+		42402AF82021014E0080DCD2 /* JE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AF72021014E0080DCD2 /* JE.jpg */; };
+		42402AFC202101730080DCD2 /* Comme les cinq doigts de la main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AFB202101730080DCD2 /* Comme les cinq doigts de la main.jpg */; };
+		42402AFE202101800080DCD2 /* Little Joanne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AFD202101800080DCD2 /* Little Joanne.jpg */; };
+		42402B002021018B0080DCD2 /* Sarah Vamos - Victoire Guilbert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402AFF2021018B0080DCD2 /* Sarah Vamos - Victoire Guilbert.jpg */; };
+		42402B02202101930080DCD2 /* Tanguy et Jules.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B01202101930080DCD2 /* Tanguy et Jules.jpg */; };
+		42402B0420210AF50080DCD2 /* La quenelle et son bff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B0320210AF40080DCD2 /* La quenelle et son bff.jpg */; };
+		42402B0620210B560080DCD2 /* Clara Neuburger et Tanguy Marbot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B0520210B560080DCD2 /* Clara Neuburger et Tanguy Marbot.jpg */; };
+		42402B0820210BEC0080DCD2 /* JIP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B0720210BEC0080DCD2 /* JIP.jpg */; };
+		42402B0C202115560080DCD2 /* P-Gang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B0B202115560080DCD2 /* P-Gang.jpg */; };
+		42402B0E20211AF80080DCD2 /* Nina Parot - Léna Placktor - Gabrielle Levy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42402B0D20211AF80080DCD2 /* Nina Parot - Léna Placktor - Gabrielle Levy.jpg */; };
+		424630372004295100C1E80E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424630362004295100C1E80E /* ViewController2.swift */; };
+		427DD084203CFDB2009F41DE /* iconeD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 427DD083203CFDB2009F41DE /* iconeD.jpg */; };
+		427DD086203D7B87009F41DE /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427DD085203D7B87009F41DE /* ViewController5.swift */; };
+		427DD0D0203DF852009F41DE /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427DD0CF203DF852009F41DE /* ViewController7.swift */; };
+		42A7554F1FF7BBD5000DE9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7554E1FF7BBD5000DE9DE /* AppDelegate.swift */; };
+		42A755541FF7BBD5000DE9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A755521FF7BBD5000DE9DE /* Main.storyboard */; };
+		42A755561FF7BBD5000DE9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A755551FF7BBD5000DE9DE /* Assets.xcassets */; };
+		42A755591FF7BBD5000DE9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A755571FF7BBD5000DE9DE /* LaunchScreen.storyboard */; };
+		42A755641FF7BBD5000DE9DE /* TableViewTest2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A755631FF7BBD5000DE9DE /* TableViewTest2_0Tests.swift */; };
+		42A7556F1FF7BBD5000DE9DE /* TableViewTest2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7556E1FF7BBD5000DE9DE /* TableViewTest2_0UITests.swift */; };
+		42A7557D1FF7BC69000DE9DE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A7557C1FF7BC69000DE9DE /* TableViewController.swift */; };
+		42C1A2152040D7770045D965 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42C1A2142040D7770045D965 /* GoogleService-Info.plist */; };
+		42C7B5AC202336CA00B9792A /* Paul.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5AB202336CA00B9792A /* Paul.JPG */; };
+		42C7B5B22023940B00B9792A /* Sunshine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5AD2023940900B9792A /* Sunshine.jpg */; };
+		42C7B5B32023940B00B9792A /* SLM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5AE2023940900B9792A /* SLM.jpg */; };
+		42C7B5B42023940B00B9792A /* We match.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5AF2023940A00B9792A /* We match.jpg */; };
+		42C7B5B52023940B00B9792A /* Asphaz x Wazø.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5B02023940A00B9792A /* Asphaz x Wazø.jpg */; };
+		42C7B5B82023941600B9792A /* Soulband.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5B72023941600B9792A /* Soulband.jpg */; };
+		42C7B5BE2024A9EB00B9792A /* Les Poussins Féroces.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5BD2024A9EB00B9792A /* Les Poussins Féroces.jpg */; };
+		42C7B5C1202507D300B9792A /* Clara & Celina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5BF202507D200B9792A /* Clara & Celina.jpg */; };
+		42C7B5C2202507D300B9792A /* Charlotte de Carbonnière - Abigaëlle Romeu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5C0202507D300B9792A /* Charlotte de Carbonnière - Abigaëlle Romeu.jpg */; };
+		42C7B5C62034BA5F00B9792A /* Magic margz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5C52034BA5F00B9792A /* Magic margz.jpg */; };
+		42C7B5C820360F3000B9792A /* Mariangue.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5C720360F3000B9792A /* Mariangue.JPG */; };
+		42C7B5CA2036105A00B9792A /* Dridri.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5C92036105900B9792A /* Dridri.PNG */; };
+		42C7B5CC20373E0600B9792A /* Ïaam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5CB20373E0600B9792A /* Ïaam.jpg */; };
+		42C7B5D220375A9600B9792A /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42C7B5D120375A9600B9792A /* song.mp3 */; };
+		8358001F0833262DD6C44661 /* Pods_TableViewTest2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734A7850996E8A08670595F /* Pods_TableViewTest2_0UITests.framework */; };
+		C412597189295EB44952049A /* Pods_TableViewTest2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C81ED747FFCA07F2DCF262D /* Pods_TableViewTest2_0Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A755601FF7BBD5000DE9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A755431FF7BBD5000DE9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A7554A1FF7BBD5000DE9DE;
+			remoteInfo = TableViewTest2.0;
+		};
+		42A7556B1FF7BBD5000DE9DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A755431FF7BBD5000DE9DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A7554A1FF7BBD5000DE9DE;
+			remoteInfo = TableViewTest2.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4205FD9F201BD54D008E3298 /* Clara, Lou’ et Isabel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clara, Lou’ et Isabel.jpg"; sourceTree = "<group>"; };
+		4205FDA1201BEF95008E3298 /* Berko.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Berko.JPG; sourceTree = "<group>"; };
+		420E2DAB20191A4B00F37337 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		420E2DAD201A900600F37337 /* Isabel Porras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Isabel Porras.jpg"; sourceTree = "<group>"; };
+		420E2DAF201A900E00F37337 /* Lou'.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Lou'.jpg"; sourceTree = "<group>"; };
+		420E2DB1201A901500F37337 /* Guillemette Guitard - Nicole Fife.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Guillemette Guitard - Nicole Fife.jpg"; sourceTree = "<group>"; };
+		420E2DB3201A901B00F37337 /* Sarah Drubay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sarah Drubay.jpg"; sourceTree = "<group>"; };
+		420E2DB5201A902500F37337 /* What'd you say?.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "What'd you say?.jpg"; sourceTree = "<group>"; };
+		422644512009101A0058664E /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		42264458200A71B90058664E /* celuiquivaalaloupeilestpasnet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = celuiquivaalaloupeilestpasnet.jpg; sourceTree = "<group>"; };
+		42402ADD201DCB700080DCD2 /* Gaggle of giggling girls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gaggle of giggling girls.jpg"; sourceTree = "<group>"; };
+		42402ADF201DCF030080DCD2 /* Victoire Genries - Laetitia Cordery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Victoire Genries - Laetitia Cordery.jpg"; sourceTree = "<group>"; };
+		42402AE3201DE0E30080DCD2 /* Aim High.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aim High.jpg"; sourceTree = "<group>"; };
+		42402AE5201E3EB60080DCD2 /* TableViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		42402AE7201E3F670080DCD2 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		42402AED201F91A10080DCD2 /* Les Jewsbrother.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Les Jewsbrother.jpg"; sourceTree = "<group>"; };
+		42402AF1201FBA6B0080DCD2 /* Marion Malard - Pénélope Laforge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marion Malard - Pénélope Laforge.jpg"; sourceTree = "<group>"; };
+		42402AF3201FBA7A0080DCD2 /* SeeMG Studio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SeeMG Studio.jpg"; sourceTree = "<group>"; };
+		42402AF5202101370080DCD2 /* Definitely plastic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Definitely plastic.jpg"; sourceTree = "<group>"; };
+		42402AF72021014E0080DCD2 /* JE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JE.jpg; sourceTree = "<group>"; };
+		42402AFB202101730080DCD2 /* Comme les cinq doigts de la main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Comme les cinq doigts de la main.jpg"; sourceTree = "<group>"; };
+		42402AFD202101800080DCD2 /* Little Joanne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Little Joanne.jpg"; sourceTree = "<group>"; };
+		42402AFF2021018B0080DCD2 /* Sarah Vamos - Victoire Guilbert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sarah Vamos - Victoire Guilbert.jpg"; sourceTree = "<group>"; };
+		42402B01202101930080DCD2 /* Tanguy et Jules.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tanguy et Jules.jpg"; sourceTree = "<group>"; };
+		42402B0320210AF40080DCD2 /* La quenelle et son bff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "La quenelle et son bff.jpg"; sourceTree = "<group>"; };
+		42402B0520210B560080DCD2 /* Clara Neuburger et Tanguy Marbot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Clara Neuburger et Tanguy Marbot.jpg"; sourceTree = "<group>"; };
+		42402B0720210BEC0080DCD2 /* JIP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JIP.jpg; sourceTree = "<group>"; };
+		42402B0B202115560080DCD2 /* P-Gang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "P-Gang.jpg"; sourceTree = "<group>"; };
+		42402B0D20211AF80080DCD2 /* Nina Parot - Léna Placktor - Gabrielle Levy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nina Parot - Léna Placktor - Gabrielle Levy.jpg"; sourceTree = "<group>"; };
+		424630362004295100C1E80E /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		427DD083203CFDB2009F41DE /* iconeD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconeD.jpg; sourceTree = "<group>"; };
+		427DD085203D7B87009F41DE /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		427DD0CF203DF852009F41DE /* ViewController7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		42A7554B1FF7BBD5000DE9DE /* TableViewTest2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTest2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A7554E1FF7BBD5000DE9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A755531FF7BBD5000DE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A755551FF7BBD5000DE9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A755581FF7BBD5000DE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A7555A1FF7BBD5000DE9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A7555F1FF7BBD5000DE9DE /* TableViewTest2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTest2.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A755631FF7BBD5000DE9DE /* TableViewTest2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTest2_0Tests.swift; sourceTree = "<group>"; };
+		42A755651FF7BBD5000DE9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A7556A1FF7BBD5000DE9DE /* TableViewTest2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTest2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A7556E1FF7BBD5000DE9DE /* TableViewTest2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTest2_0UITests.swift; sourceTree = "<group>"; };
+		42A755701FF7BBD5000DE9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A7557C1FF7BC69000DE9DE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		42C1A2142040D7770045D965 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42C1A2162040E1DA0045D965 /* TableViewTest2.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TableViewTest2.0.entitlements; sourceTree = "<group>"; };
+		42C7B5AB202336CA00B9792A /* Paul.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paul.JPG; sourceTree = "<group>"; };
+		42C7B5AD2023940900B9792A /* Sunshine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunshine.jpg; sourceTree = "<group>"; };
+		42C7B5AE2023940900B9792A /* SLM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SLM.jpg; sourceTree = "<group>"; };
+		42C7B5AF2023940A00B9792A /* We match.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "We match.jpg"; sourceTree = "<group>"; };
+		42C7B5B02023940A00B9792A /* Asphaz x Wazø.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Asphaz x Wazø.jpg"; sourceTree = "<group>"; };
+		42C7B5B72023941600B9792A /* Soulband.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Soulband.jpg; sourceTree = "<group>"; };
+		42C7B5BD2024A9EB00B9792A /* Les Poussins Féroces.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Les Poussins Féroces.jpg"; sourceTree = "<group>"; };
+		42C7B5BF202507D200B9792A /* Clara & Celina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Clara & Celina.jpg"; path = "dossier photo artiste passion/Clara & Celina.jpg"; sourceTree = SOURCE_ROOT; };
+		42C7B5C0202507D300B9792A /* Charlotte de Carbonnière - Abigaëlle Romeu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Charlotte de Carbonnière - Abigaëlle Romeu.jpg"; path = "dossier photo artiste passion/Charlotte de Carbonnière - Abigaëlle Romeu.jpg"; sourceTree = SOURCE_ROOT; };
+		42C7B5C52034BA5F00B9792A /* Magic margz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Magic margz.jpg"; path = "dossier photo artiste passion/Magic margz.jpg"; sourceTree = SOURCE_ROOT; };
+		42C7B5C720360F3000B9792A /* Mariangue.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mariangue.JPG; sourceTree = "<group>"; };
+		42C7B5C92036105900B9792A /* Dridri.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dridri.PNG; sourceTree = "<group>"; };
+		42C7B5CB20373E0600B9792A /* Ïaam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Ïaam.jpg"; path = "dossier photo artiste passion/Ïaam.jpg"; sourceTree = SOURCE_ROOT; };
+		42C7B5D120375A9600B9792A /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		5BF32C83213775E5757B90F7 /* Pods_TableViewTest2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewTest2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663523101841D9AD8929CEEE /* Pods-TableViewTest2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0Tests/Pods-TableViewTest2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		79C1560D6362A04E2C5407C1 /* Pods-TableViewTest2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0UITests/Pods-TableViewTest2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C81ED747FFCA07F2DCF262D /* Pods_TableViewTest2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewTest2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BE70D9EAED4F6671A1ACF87 /* Pods-TableViewTest2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0UITests/Pods-TableViewTest2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9734A7850996E8A08670595F /* Pods_TableViewTest2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableViewTest2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B62E4C52BF6F7E957364660C /* Pods-TableViewTest2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0/Pods-TableViewTest2.0.release.xcconfig"; sourceTree = "<group>"; };
+		EB26F9D640AB867D6BC98315 /* Pods-TableViewTest2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0Tests/Pods-TableViewTest2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFA5A1988222BBD09CE3879 /* Pods-TableViewTest2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewTest2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewTest2.0/Pods-TableViewTest2.0.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A755481FF7BBD5000DE9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC39D585C20D284F7BF673B /* Pods_TableViewTest2_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A7555C1FF7BBD5000DE9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C412597189295EB44952049A /* Pods_TableViewTest2_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A755671FF7BBD5000DE9DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8358001F0833262DD6C44661 /* Pods_TableViewTest2_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4226444F2008FB7B0058664E /* Image des artistes */ = {
+			isa = PBXGroup;
+			children = (
+				42C7B5C4202507EB00B9792A /* Artistes */,
+				42C7B5C3202507E200B9792A /* Défilé */,
+				42402B0720210BEC0080DCD2 /* JIP.jpg */,
+				42C7B5C0202507D300B9792A /* Charlotte de Carbonnière - Abigaëlle Romeu.jpg */,
+				42C7B5BF202507D200B9792A /* Clara & Celina.jpg */,
+				42402ADF201DCF030080DCD2 /* Victoire Genries - Laetitia Cordery.jpg */,
+				42402B0D20211AF80080DCD2 /* Nina Parot - Léna Placktor - Gabrielle Levy.jpg */,
+				42402B0520210B560080DCD2 /* Clara Neuburger et Tanguy Marbot.jpg */,
+				42402AF1201FBA6B0080DCD2 /* Marion Malard - Pénélope Laforge.jpg */,
+				42402B0320210AF40080DCD2 /* La quenelle et son bff.jpg */,
+				42402AF5202101370080DCD2 /* Definitely plastic.jpg */,
+				42402AFF2021018B0080DCD2 /* Sarah Vamos - Victoire Guilbert.jpg */,
+				420E2DB1201A901500F37337 /* Guillemette Guitard - Nicole Fife.jpg */,
+			);
+			path = "Image des artistes";
+			sourceTree = "<group>";
+		};
+		42264455200A631F0058664E /* Image en plus */ = {
+			isa = PBXGroup;
+			children = (
+				42C7B5AB202336CA00B9792A /* Paul.JPG */,
+				42C7B5D120375A9600B9792A /* song.mp3 */,
+				42C7B5C92036105900B9792A /* Dridri.PNG */,
+				42402AE3201DE0E30080DCD2 /* Aim High.jpg */,
+				427DD083203CFDB2009F41DE /* iconeD.jpg */,
+				42C7B5C720360F3000B9792A /* Mariangue.JPG */,
+				42264458200A71B90058664E /* celuiquivaalaloupeilestpasnet.jpg */,
+				4205FDA1201BEF95008E3298 /* Berko.JPG */,
+			);
+			path = "Image en plus";
+			sourceTree = "<group>";
+		};
+		42A755421FF7BBD5000DE9DE = {
+			isa = PBXGroup;
+			children = (
+				42A7554D1FF7BBD5000DE9DE /* TableViewTest2.0 */,
+				42A755621FF7BBD5000DE9DE /* TableViewTest2.0Tests */,
+				42A7556D1FF7BBD5000DE9DE /* TableViewTest2.0UITests */,
+				42A7554C1FF7BBD5000DE9DE /* Products */,
+				A2DCFBE1EF3320FF6CB5D7E6 /* Pods */,
+				B62494BA6FA1C01F4F0389A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42A7554C1FF7BBD5000DE9DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A7554B1FF7BBD5000DE9DE /* TableViewTest2.0.app */,
+				42A7555F1FF7BBD5000DE9DE /* TableViewTest2.0Tests.xctest */,
+				42A7556A1FF7BBD5000DE9DE /* TableViewTest2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A7554D1FF7BBD5000DE9DE /* TableViewTest2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				42C1A2162040E1DA0045D965 /* TableViewTest2.0.entitlements */,
+				42C1A2142040D7770045D965 /* GoogleService-Info.plist */,
+				42A7554E1FF7BBD5000DE9DE /* AppDelegate.swift */,
+				42402AE5201E3EB60080DCD2 /* TableViewController2.swift */,
+				42A7557C1FF7BC69000DE9DE /* TableViewController.swift */,
+				427DD0CF203DF852009F41DE /* ViewController7.swift */,
+				42402AE7201E3F670080DCD2 /* ViewController4.swift */,
+				427DD085203D7B87009F41DE /* ViewController5.swift */,
+				420E2DAB20191A4B00F37337 /* ViewController3.swift */,
+				424630362004295100C1E80E /* ViewController2.swift */,
+				422644512009101A0058664E /* SplashScreen.swift */,
+				42A755521FF7BBD5000DE9DE /* Main.storyboard */,
+				42264455200A631F0058664E /* Image en plus */,
+				4226444F2008FB7B0058664E /* Image des artistes */,
+				42A755551FF7BBD5000DE9DE /* Assets.xcassets */,
+				42A755571FF7BBD5000DE9DE /* LaunchScreen.storyboard */,
+				42A7555A1FF7BBD5000DE9DE /* Info.plist */,
+			);
+			path = TableViewTest2.0;
+			sourceTree = "<group>";
+		};
+		42A755621FF7BBD5000DE9DE /* TableViewTest2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42A755631FF7BBD5000DE9DE /* TableViewTest2_0Tests.swift */,
+				42A755651FF7BBD5000DE9DE /* Info.plist */,
+			);
+			path = TableViewTest2.0Tests;
+			sourceTree = "<group>";
+		};
+		42A7556D1FF7BBD5000DE9DE /* TableViewTest2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				42A7556E1FF7BBD5000DE9DE /* TableViewTest2_0UITests.swift */,
+				42A755701FF7BBD5000DE9DE /* Info.plist */,
+			);
+			path = TableViewTest2.0UITests;
+			sourceTree = "<group>";
+		};
+		42C7B5C3202507E200B9792A /* Défilé */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Défilé";
+			path = "Défilé";
+			sourceTree = "<group>";
+		};
+		42C7B5C4202507EB00B9792A /* Artistes */ = {
+			isa = PBXGroup;
+			children = (
+				420E2DB5201A902500F37337 /* What'd you say?.jpg */,
+				42C7B5CB20373E0600B9792A /* Ïaam.jpg */,
+				42C7B5C52034BA5F00B9792A /* Magic margz.jpg */,
+				42C7B5BD2024A9EB00B9792A /* Les Poussins Féroces.jpg */,
+				42402AED201F91A10080DCD2 /* Les Jewsbrother.jpg */,
+				42402AF72021014E0080DCD2 /* JE.jpg */,
+				42402AFD202101800080DCD2 /* Little Joanne.jpg */,
+				420E2DAF201A900E00F37337 /* Lou'.jpg */,
+				42402B0B202115560080DCD2 /* P-Gang.jpg */,
+				42402AF3201FBA7A0080DCD2 /* SeeMG Studio.jpg */,
+				42C7B5AF2023940A00B9792A /* We match.jpg */,
+				42C7B5AE2023940900B9792A /* SLM.jpg */,
+				42C7B5B02023940A00B9792A /* Asphaz x Wazø.jpg */,
+				42C7B5AD2023940900B9792A /* Sunshine.jpg */,
+				42C7B5B72023941600B9792A /* Soulband.jpg */,
+				42402ADD201DCB700080DCD2 /* Gaggle of giggling girls.jpg */,
+				420E2DB3201A901B00F37337 /* Sarah Drubay.jpg */,
+				42402B01202101930080DCD2 /* Tanguy et Jules.jpg */,
+				4205FD9F201BD54D008E3298 /* Clara, Lou’ et Isabel.jpg */,
+				42402AFB202101730080DCD2 /* Comme les cinq doigts de la main.jpg */,
+				420E2DAD201A900600F37337 /* Isabel Porras.jpg */,
+			);
+			path = Artistes;
+			sourceTree = "<group>";
+		};
+		A2DCFBE1EF3320FF6CB5D7E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFA5A1988222BBD09CE3879 /* Pods-TableViewTest2.0.debug.xcconfig */,
+				B62E4C52BF6F7E957364660C /* Pods-TableViewTest2.0.release.xcconfig */,
+				EB26F9D640AB867D6BC98315 /* Pods-TableViewTest2.0Tests.debug.xcconfig */,
+				663523101841D9AD8929CEEE /* Pods-TableViewTest2.0Tests.release.xcconfig */,
+				8BE70D9EAED4F6671A1ACF87 /* Pods-TableViewTest2.0UITests.debug.xcconfig */,
+				79C1560D6362A04E2C5407C1 /* Pods-TableViewTest2.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B62494BA6FA1C01F4F0389A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BF32C83213775E5757B90F7 /* Pods_TableViewTest2_0.framework */,
+				7C81ED747FFCA07F2DCF262D /* Pods_TableViewTest2_0Tests.framework */,
+				9734A7850996E8A08670595F /* Pods_TableViewTest2_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A7554A1FF7BBD5000DE9DE /* TableViewTest2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A755731FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0" */;
+			buildPhases = (
+				12A16B84CE2377C362742ABD /* [CP] Check Pods Manifest.lock */,
+				42A755471FF7BBD5000DE9DE /* Sources */,
+				42A755481FF7BBD5000DE9DE /* Frameworks */,
+				42A755491FF7BBD5000DE9DE /* Resources */,
+				529ECCF80CC5248E9AACFD3F /* [CP] Embed Pods Frameworks */,
+				83BAE0A3D5D7AD0530DD0CB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewTest2.0;
+			productName = TableViewTest2.0;
+			productReference = 42A7554B1FF7BBD5000DE9DE /* TableViewTest2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A7555E1FF7BBD5000DE9DE /* TableViewTest2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A755761FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0Tests" */;
+			buildPhases = (
+				18FD776C23B0E5E4FA1E7726 /* [CP] Check Pods Manifest.lock */,
+				42A7555B1FF7BBD5000DE9DE /* Sources */,
+				42A7555C1FF7BBD5000DE9DE /* Frameworks */,
+				42A7555D1FF7BBD5000DE9DE /* Resources */,
+				1F8478889EE90E18AFF0ADD5 /* [CP] Embed Pods Frameworks */,
+				F7C5E070A59B63F75EF71105 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A755611FF7BBD5000DE9DE /* PBXTargetDependency */,
+			);
+			name = TableViewTest2.0Tests;
+			productName = TableViewTest2.0Tests;
+			productReference = 42A7555F1FF7BBD5000DE9DE /* TableViewTest2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42A755691FF7BBD5000DE9DE /* TableViewTest2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A755791FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0UITests" */;
+			buildPhases = (
+				E764D926BF94001909535886 /* [CP] Check Pods Manifest.lock */,
+				42A755661FF7BBD5000DE9DE /* Sources */,
+				42A755671FF7BBD5000DE9DE /* Frameworks */,
+				42A755681FF7BBD5000DE9DE /* Resources */,
+				620CF19489C31BD45BE1FAD8 /* [CP] Embed Pods Frameworks */,
+				475C74BBBD31307B54A6D797 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A7556C1FF7BBD5000DE9DE /* PBXTargetDependency */,
+			);
+			name = TableViewTest2.0UITests;
+			productName = TableViewTest2.0UITests;
+			productReference = 42A7556A1FF7BBD5000DE9DE /* TableViewTest2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A755431FF7BBD5000DE9DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Passion for Creation";
+				TargetAttributes = {
+					42A7554A1FF7BBD5000DE9DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LXEVTKR766;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					42A7555E1FF7BBD5000DE9DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42A7554A1FF7BBD5000DE9DE;
+					};
+					42A755691FF7BBD5000DE9DE = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42A7554A1FF7BBD5000DE9DE;
+					};
+				};
+			};
+			buildConfigurationList = 42A755461FF7BBD5000DE9DE /* Build configuration list for PBXProject "TableViewTest2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A755421FF7BBD5000DE9DE;
+			productRefGroup = 42A7554C1FF7BBD5000DE9DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A7554A1FF7BBD5000DE9DE /* TableViewTest2.0 */,
+				42A7555E1FF7BBD5000DE9DE /* TableViewTest2.0Tests */,
+				42A755691FF7BBD5000DE9DE /* TableViewTest2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A755491FF7BBD5000DE9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C7B5AC202336CA00B9792A /* Paul.JPG in Resources */,
+				420E2DB6201A902500F37337 /* What'd you say?.jpg in Resources */,
+				42402B0620210B560080DCD2 /* Clara Neuburger et Tanguy Marbot.jpg in Resources */,
+				420E2DB4201A901B00F37337 /* Sarah Drubay.jpg in Resources */,
+				420E2DB0201A900E00F37337 /* Lou'.jpg in Resources */,
+				42C7B5B32023940B00B9792A /* SLM.jpg in Resources */,
+				42402AEE201F91A10080DCD2 /* Les Jewsbrother.jpg in Resources */,
+				420E2DAE201A900600F37337 /* Isabel Porras.jpg in Resources */,
+				42C7B5C820360F3000B9792A /* Mariangue.JPG in Resources */,
+				42C7B5B52023940B00B9792A /* Asphaz x Wazø.jpg in Resources */,
+				42402B0C202115560080DCD2 /* P-Gang.jpg in Resources */,
+				42402AE4201DE0E30080DCD2 /* Aim High.jpg in Resources */,
+				42402B0820210BEC0080DCD2 /* JIP.jpg in Resources */,
+				42C7B5B22023940B00B9792A /* Sunshine.jpg in Resources */,
+				42A755591FF7BBD5000DE9DE /* LaunchScreen.storyboard in Resources */,
+				42402AF2201FBA6B0080DCD2 /* Marion Malard - Pénélope Laforge.jpg in Resources */,
+				42C7B5BE2024A9EB00B9792A /* Les Poussins Féroces.jpg in Resources */,
+				42C7B5D220375A9600B9792A /* song.mp3 in Resources */,
+				42402B0E20211AF80080DCD2 /* Nina Parot - Léna Placktor - Gabrielle Levy.jpg in Resources */,
+				42402AF6202101370080DCD2 /* Definitely plastic.jpg in Resources */,
+				42C7B5CC20373E0600B9792A /* Ïaam.jpg in Resources */,
+				42C7B5CA2036105A00B9792A /* Dridri.PNG in Resources */,
+				42264459200A71BA0058664E /* celuiquivaalaloupeilestpasnet.jpg in Resources */,
+				42402ADE201DCB710080DCD2 /* Gaggle of giggling girls.jpg in Resources */,
+				42402AE0201DCF040080DCD2 /* Victoire Genries - Laetitia Cordery.jpg in Resources */,
+				42C7B5B82023941600B9792A /* Soulband.jpg in Resources */,
+				4205FDA2201BEF96008E3298 /* Berko.JPG in Resources */,
+				42C7B5C2202507D300B9792A /* Charlotte de Carbonnière - Abigaëlle Romeu.jpg in Resources */,
+				42C7B5C1202507D300B9792A /* Clara & Celina.jpg in Resources */,
+				42402AF4201FBA7A0080DCD2 /* SeeMG Studio.jpg in Resources */,
+				42402B0420210AF50080DCD2 /* La quenelle et son bff.jpg in Resources */,
+				4205FDA0201BD54D008E3298 /* Clara, Lou’ et Isabel.jpg in Resources */,
+				42402AFC202101730080DCD2 /* Comme les cinq doigts de la main.jpg in Resources */,
+				42402AFE202101800080DCD2 /* Little Joanne.jpg in Resources */,
+				42A755561FF7BBD5000DE9DE /* Assets.xcassets in Resources */,
+				42402AF82021014E0080DCD2 /* JE.jpg in Resources */,
+				420E2DB2201A901600F37337 /* Guillemette Guitard - Nicole Fife.jpg in Resources */,
+				42402B002021018B0080DCD2 /* Sarah Vamos - Victoire Guilbert.jpg in Resources */,
+				42C7B5B42023940B00B9792A /* We match.jpg in Resources */,
+				427DD084203CFDB2009F41DE /* iconeD.jpg in Resources */,
+				42402B02202101930080DCD2 /* Tanguy et Jules.jpg in Resources */,
+				42C1A2152040D7770045D965 /* GoogleService-Info.plist in Resources */,
+				42C7B5C62034BA5F00B9792A /* Magic margz.jpg in Resources */,
+				42A755541FF7BBD5000DE9DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A7555D1FF7BBD5000DE9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A755681FF7BBD5000DE9DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12A16B84CE2377C362742ABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewTest2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18FD776C23B0E5E4FA1E7726 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewTest2.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F8478889EE90E18AFF0ADD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0Tests/Pods-TableViewTest2.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		475C74BBBD31307B54A6D797 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0UITests/Pods-TableViewTest2.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		529ECCF80CC5248E9AACFD3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0/Pods-TableViewTest2.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0/Pods-TableViewTest2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620CF19489C31BD45BE1FAD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0UITests/Pods-TableViewTest2.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83BAE0A3D5D7AD0530DD0CB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0/Pods-TableViewTest2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E764D926BF94001909535886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableViewTest2.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C5E070A59B63F75EF71105 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableViewTest2.0Tests/Pods-TableViewTest2.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A755471FF7BBD5000DE9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422644522009101A0058664E /* SplashScreen.swift in Sources */,
+				420E2DAC20191A4B00F37337 /* ViewController3.swift in Sources */,
+				42402AE8201E3F670080DCD2 /* ViewController4.swift in Sources */,
+				427DD086203D7B87009F41DE /* ViewController5.swift in Sources */,
+				42402AE6201E3EB60080DCD2 /* TableViewController2.swift in Sources */,
+				427DD0D0203DF852009F41DE /* ViewController7.swift in Sources */,
+				424630372004295100C1E80E /* ViewController2.swift in Sources */,
+				42A7557D1FF7BC69000DE9DE /* TableViewController.swift in Sources */,
+				42A7554F1FF7BBD5000DE9DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A7555B1FF7BBD5000DE9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A755641FF7BBD5000DE9DE /* TableViewTest2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A755661FF7BBD5000DE9DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A7556F1FF7BBD5000DE9DE /* TableViewTest2_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A755611FF7BBD5000DE9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A7554A1FF7BBD5000DE9DE /* TableViewTest2.0 */;
+			targetProxy = 42A755601FF7BBD5000DE9DE /* PBXContainerItemProxy */;
+		};
+		42A7556C1FF7BBD5000DE9DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A7554A1FF7BBD5000DE9DE /* TableViewTest2.0 */;
+			targetProxy = 42A7556B1FF7BBD5000DE9DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42A755521FF7BBD5000DE9DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A755531FF7BBD5000DE9DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A755571FF7BBD5000DE9DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A755581FF7BBD5000DE9DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A755711FF7BBD5000DE9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A755721FF7BBD5000DE9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A755741FF7BBD5000DE9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFA5A1988222BBD09CE3879 /* Pods-TableViewTest2.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TableViewTest2.0/TableViewTest2.0.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXEVTKR766;
+				INFOPLIST_FILE = TableViewTest2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Passion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42A755751FF7BBD5000DE9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62E4C52BF6F7E957364660C /* Pods-TableViewTest2.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TableViewTest2.0/TableViewTest2.0.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXEVTKR766;
+				INFOPLIST_FILE = TableViewTest2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Passion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		42A755771FF7BBD5000DE9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB26F9D640AB867D6BC98315 /* Pods-TableViewTest2.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewTest2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PFC-X.TableViewTest2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest2.0.app/TableViewTest2.0";
+			};
+			name = Debug;
+		};
+		42A755781FF7BBD5000DE9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663523101841D9AD8929CEEE /* Pods-TableViewTest2.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewTest2.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PFC-X.TableViewTest2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewTest2.0.app/TableViewTest2.0";
+			};
+			name = Release;
+		};
+		42A7557A1FF7BBD5000DE9DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE70D9EAED4F6671A1ACF87 /* Pods-TableViewTest2.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableViewTest2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PFC-X.TableViewTest2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TableViewTest2.0;
+			};
+			name = Debug;
+		};
+		42A7557B1FF7BBD5000DE9DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C1560D6362A04E2C5407C1 /* Pods-TableViewTest2.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableViewTest2.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PFC-X.TableViewTest2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TableViewTest2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A755461FF7BBD5000DE9DE /* Build configuration list for PBXProject "TableViewTest2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A755711FF7BBD5000DE9DE /* Debug */,
+				42A755721FF7BBD5000DE9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A755731FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A755741FF7BBD5000DE9DE /* Debug */,
+				42A755751FF7BBD5000DE9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A755761FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A755771FF7BBD5000DE9DE /* Debug */,
+				42A755781FF7BBD5000DE9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A755791FF7BBD5000DE9DE /* Build configuration list for PBXNativeTarget "TableViewTest2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A7557A1FF7BBD5000DE9DE /* Debug */,
+				42A7557B1FF7BBD5000DE9DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A755431FF7BBD5000DE9DE /* Project object */;
+}
